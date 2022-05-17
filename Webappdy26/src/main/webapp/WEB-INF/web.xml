@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Webappdy25</display-name>
+  
+  
+  
+  
+  <servlet>
+  
+  <servlet-name>LifeCycleServlet</servlet-name>
+  <servlet-class>ai.jobiak.servlets.LifeCycleServlet</servlet-class>
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LifeCycleServlet</servlet-name>
+  <url-pattern>/start</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  
+  <servlet-name>IntroServlet</servlet-name>
+  <servlet-class>ai.jobiak.servlets.IntroServlet</servlet-class>
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>IntroServlet</servlet-name>
+  <url-pattern>/begin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  
+  <servlet-name>FactorialServlet</servlet-name>
+  <servlet-class>ai.jobiak.servlets.FactorialServlet</servlet-class>
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>FactorialServlet</servlet-name>
+  <url-pattern>/fact</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  
+  <servlet-name>JdbcServlet</servlet-name>
+  <servlet-class>ai.jobiak.servlets.JdbcServlet</servlet-class>
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>JdbcServlet2</servlet-name>
+  <url-pattern>/Jdbc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  
+  <servlet-name>JdbcServlet2</servlet-name>
+  <servlet-class>ai.jobiak.servlets.JdbcServlet2</servlet-class>
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>JdbcServlet</servlet-name>
+  <url-pattern>/jdbc</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <servlet>
+  
+  <servlet-name>JdbcServlet3</servlet-name>
+  <servlet-class>ai.jobiak.servlets.JdbcServlet3</servlet-class>
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>JdbcServlet3</servlet-name>
+  <url-pattern>/jdbc1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ <servlet>
+  
+  <servlet-name>EOCheck</servlet-name>
+  <servlet-class>ai.jobiak.servlets.EOCheck</servlet-class>
+  
+  
+ 
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>EOCheck</servlet-name>
+  <url-pattern>/check</url-pattern>
+  </servlet-mapping>
+  
+  
+   <welcome-file-list>
+    <welcome-file>links.html</welcome-file>
+    
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <!-- <display-name>Shoppingcart30</display-name>-->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Shoppingcart</display-name>
+    <servlet-name>Shoppingcart</servlet-name>
+    <servlet-class>ai.jobiak.cart.Shoppingcart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Shoppingcart</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Shoppingcart2</display-name>
+    <servlet-name>Shoppingcart2</servlet-name>
+    <servlet-class>ai.jobiak.cart.Shoppingcart2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Shoppingcart2</servlet-name>
+    <url-pattern>/cart2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Shoppingcart3</display-name>
+    <servlet-name>Shoppingcart3</servlet-name>
+    <servlet-class>ai.jobiak.cart.Shoppingcart3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Shoppingcart3</servlet-name>
+    <url-pattern>/cart3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Shoppingcart4</display-name>
+    <servlet-name>Shoppingcart4</servlet-name>
+    <servlet-class>ai.jobiak.cart.Shoppingcart4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Shoppingcart4</servlet-name>
+    <url-pattern>/cart4</url-pattern>
+  </servlet-mapping>
+</web-app>
